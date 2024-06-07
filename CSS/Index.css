@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Assistant,-apple-system, BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue, Arial,sans-serif;
+}
+header {
+    display: flex;
+    background-color:rgb(249, 213, 213);
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.home_image {
+    height: 75px;
+}
+.logo_container {
+    margin-left: 10%;
+}
+
+.company_name a {
+    font-size: 30px;
+    text-decoration:none;
+    margin-right: 14%; 
+    color:orangered;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+.nav_bar {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+    margin-right:20%;
+}
+.nav_bar a {
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #030407;
+    font-weight: 700 ;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 25px 0;
+    border-bottom: 5px solid rgb(249, 213, 213);
+}
+.nav_bar a:hover {
+    border-bottom: 5px solid hsl(10, 100%, 50%) ;
+}
+.action_bar {
+    margin-right:5%;
+}
+.action_bar input {
+    height: 60px;
+    width: 90px;
+    background-color: rgb(240, 134, 91);
+    color: rgb(10, 9, 7);
+    font-weight: bold;
+}
+.btn:hover
+{
+background-image:none !important;
+background-color:hsl(10, 100%, 50%) !important;
+}
